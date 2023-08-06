@@ -1,0 +1,23 @@
+.letter-transition-appear,
+.letter-transition-enter {
+   color: #1da1f2;
+  transform: translateY(-30px);
+};
+
+/*label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}*/;
+
+.letter-transition-appear-active,
+.letter-transition-enter-active {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+};
+
+.letter {
+  display: inline-block;
+}

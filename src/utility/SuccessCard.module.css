@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?Muli&display=swap');
+
+body.container {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+body.container p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: green;
+}
+
+body.greencard {
+  color: green;
+  height: 400px;
+  width: 400px;
+  background-color: grey;
+  border: grey solid;
+}
+
+body.greencard p{
+  color: green;
+
+}
